@@ -27,7 +27,7 @@ body{
     margin-bottom: 30px;
     font-size: 20px;
 }  
-a{
+#first-section a,#second-section a{
     color: white;
     text-decoration: none;
     padding: 20px 25px;
@@ -39,7 +39,7 @@ a{
     left: 50%;
     transform: translate(-50%);
 }
-#second-section h2, #third-section h2{
+#second-section h2, #third-section h2, #fifth-section h2{
     font-size: 50px;
 }
 #second-section p{
@@ -54,7 +54,7 @@ a{
     font-size: 20px;
     font-weight: 600;
 }
-input{
+#second-section input{
     border-bottom: 2px solid black;
     border: none;
     padding: 5px 400px;
@@ -88,7 +88,46 @@ input{
 #third-section p{
     color: #3c3c3d;
 }
+#fourth-section div{
+    
+}
+.sub-div{
+    display: inline-block;
+    width: 450px;
+    height: 400px;
+}
+.text-div{
+    padding-right: 5px;
+}
+.text-div h2{
+    font-size: 40px;
+}
 
+#fourth-section img{
+    width: 450px;
+    height: 300px;
+}
+#fifth-section p{
+    color: #4c4c4e;
+}
+#fifth-section form{
+    background-color: #dcf287;
+    padding: 100px;
+    text-align: center;
+}
+#fifth-section a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#fifth-section input{
+    width: 300px;
+    height: 50px;
+}
 
 footer{
     width: 100%;
